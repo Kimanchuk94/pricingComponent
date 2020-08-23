@@ -68,7 +68,7 @@ left:-4px;
   transition: 0.25s;
 }
 .check:checked:after {
-  right: 28px;
+  right: 26px;
 }
 .check:checked ~ .contentAnnual {
   display: none;
