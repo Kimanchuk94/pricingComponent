@@ -11,9 +11,10 @@
   padding: 0;
   font-family: 'Montserrat', sans-serif;
   color: hsl(233, 13%, 49%);
+
 }
 body {
-  background-image: url("C:/Users/kimac/Desktop/pricingContent/public/images/bg-bottom.svg"), url("C:/Users/kimac/Desktop/pricingContent/public/images/bg-top.svg");
+  background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
   background-position: left bottom,right top;
   background-repeat: no-repeat, no-repeat;
 }
