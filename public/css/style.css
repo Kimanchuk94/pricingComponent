@@ -136,18 +136,16 @@ hr {
   height: 0.5px;
   background-color: hsl(234, 14%, 74%);
 }
- .flex-box > div {
+@media screen and (max-width: 600px) {
+  .flex-box > div {
+ 
     margin: 20px;
     width: 500px;
   }
   body {
     background-image: url("../images/bg-top.svg");
+     background-position:300px 0px;
      background-position:180px -60px;
   }
   .header {
     display: block;
-
-  padding-top:50px;
-  }
-
-}
