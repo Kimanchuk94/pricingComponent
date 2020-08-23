@@ -60,7 +60,7 @@ left:-4px;
   content: "";
   position: absolute;
   bottom: -7px;
-  right: -12px;
+  right: -10px;
   width: 25px;
   height: 25px;
   background: #fff;
@@ -68,7 +68,7 @@ left:-4px;
   transition: 0.25s;
 }
 .check:checked:after {
-  right: 26px;
+  right: 28px;
 }
 .check:checked ~ .contentAnnual {
   display: none;
@@ -133,7 +133,7 @@ hr {
   height: 0.5px;
   background-color: hsl(234, 14%, 74%);
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
   .flex-box > div {
     margin: 20px;
     width: 500px;
