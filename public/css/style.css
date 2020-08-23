@@ -55,7 +55,7 @@ body {
 .check:after {
   content: "";
   position: absolute;
-  right: -10px;
+  right: -11px;
   width: 25px;
   height: 25px;
   background: #fff;
@@ -135,5 +135,11 @@ hr {
   }
   body {
     background-image: none;
+  }
+  .check:checked ~ .contentAnnual {
+    display: none;
+  }
+  .check:checked ~ .contentMonthly {
+    display: block;
   }
 }
