@@ -128,7 +128,7 @@ hr {
   height: 0.5px;
   background-color: hsl(234, 14%, 74%);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1000px) {
   .flex-box > div {
     margin: 20px;
     width: 500px;
@@ -136,41 +136,5 @@ hr {
   body {
     background-image: none;
   }
-  .check {
-    position: relative;
-    width: 50px;
-    margin: 25px;
-    top: -5px;
-    cursor: pointer;
-  }
-  .check:before {
-    content: "";
-    position: absolute;
-    width: 60px;
-    height: 25px;
-    background: hsl(237, 63%, 64%);
-    border-radius: 25px;
-  }
-  .check:checked::before {
-    background: hsl(237, 63%, 64%);
-  }
-  .check:after {
-    content: "";
-    position: absolute;
-    right: -11px;
-    width: 25px;
-    height: 25px;
-    background: #fff;
-    border-radius: 23px;
-    transition: 0.25s;
-  }
-  .check:checked:after {
-    right: 25px;
-  }
-  .check:checked ~ .contentAnnual {
-    display: none;
-  }
-  .check:checked ~ .contentMonthly {
-    display: block;
-  }
+
 }
