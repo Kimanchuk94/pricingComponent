@@ -36,15 +36,19 @@ body {
 }
 .check {
   position: relative;
+
   width: 50px;
   margin: 25px;
-  top: -5px;
+
   cursor: pointer;
 }
 .check:before {
+
   content: "";
   position: absolute;
-  width: 60px;
+left:-4px;
+  bottom: -7px;
+  width: 65px;
   height: 25px;
   background: hsl(237, 63%, 64%);
   border-radius: 25px;
@@ -55,7 +59,8 @@ body {
 .check:after {
   content: "";
   position: absolute;
-  right: -11px;
+  bottom: -7px;
+  right: -10px;
   width: 25px;
   height: 25px;
   background: #fff;
@@ -63,7 +68,7 @@ body {
   transition: 0.25s;
 }
 .check:checked:after {
-  right: 25px;
+  right: 28px;
 }
 .check:checked ~ .contentAnnual {
   display: none;
