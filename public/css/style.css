@@ -136,7 +136,7 @@ hr {
   height: 0.5px;
   background-color: hsl(234, 14%, 74%);
 }
-100px  .flex-box > div {
+ .flex-box > div {
     margin: 20px;
     width: 500px;
   }
