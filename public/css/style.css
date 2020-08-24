@@ -18,6 +18,7 @@ body {
   background-image: url("../images/bg-bottom.svg"), url("../images/bg-top.svg");
   background-position: left bottom,right top;
   background-repeat: no-repeat, no-repeat;
+  -webkit-tap-highlight-color: #ccc;
 }
 .header {
   display: block;
